@@ -1,24 +1,16 @@
-import{BarChart3,Blend,ChartNoAxesCombined,Compass,FileText,Globe2,Megaphone,MousePointerClick,Palette,Search,Share2,Sparkles,Target,TrendingUp}from'lucide-react';
-export const metrics=[{lead:'360°',label:'Digital Growth',detail:'Connected strategy'},{lead:'10+',label:'Growth Services',detail:'One expert partner'},{lead:'Multi',label:'Platform Promotion',detail:'Where audiences live'},{lead:'Strategy',label:'Driven Campaigns',detail:'Built with purpose'}];
-export const principles=[{name:'Strategy',text:'A clear direction before every decision.',icon:Compass,color:'blue'},{name:'Creativity',text:'Ideas that earn attention and stay memorable.',icon:Sparkles,color:'purple'},{name:'Technology',text:'Modern tools that sharpen execution.',icon:Globe2,color:'cyan'},{name:'Growth',text:'Every effort connected to business progress.',icon:TrendingUp,color:'green'}];
+import{BarChart3,Lightbulb,Megaphone,Palette,Search,Share2,Target,TrendingUp}from'lucide-react';
+export const strengths=[{name:'Strategy',text:'Clear direction shaped around your business.',icon:Target},{name:'Creativity',text:'Distinct ideas that make your brand memorable.',icon:Lightbulb},{name:'Visibility',text:'Relevant promotion across the right channels.',icon:Search},{name:'Growth',text:'Marketing connected to meaningful progress.',icon:TrendingUp}];
 export const services=[
-{title:'Digital Marketing',text:'Complete digital strategies designed around your business goals.',icon:Megaphone,accent:'blue'},
-{title:'Social Media Marketing',text:'Build visibility and engagement across the platforms your audience uses.',icon:Share2,accent:'purple'},
-{title:'SEO',text:'Improve organic search visibility and attract customers with genuine intent.',icon:Search,accent:'cyan'},
-{title:'Performance Marketing',text:'Data-led paid campaigns designed around measurable business outcomes.',icon:ChartNoAxesCombined,accent:'green'},
-{title:'Meta & Google Ads',text:'Targeted advertising across major platforms with smarter allocation.',icon:MousePointerClick,accent:'blue'},
-{title:'Branding',text:'Create a memorable, consistent digital identity people recognize.',icon:Palette,accent:'purple'},
-{title:'Content Marketing',text:'Useful content that attracts, educates, engages, and converts.',icon:FileText,accent:'cyan'},
-{title:'Lead Generation',text:'Focused campaigns that bring qualified potential customers closer.',icon:Target,accent:'green'},
-{title:'Website Promotion',text:'Increase awareness, relevant traffic, and opportunities for conversion.',icon:Globe2,accent:'blue'}];
-export const process=[['01','Understand','We learn the business, audience, market, and goals.'],['02','Strategize','We create a focused digital growth plan.'],['03','Create','We shape campaigns, content, creatives, and messaging.'],['04','Promote','We activate the right mix of digital channels.'],['05','Optimize','We study performance and continuously improve.'],['06','Grow','We turn stronger visibility into business opportunities.']];
-export const reasons=[{title:'Growth-Focused Strategy',text:'Marketing decisions begin with the business outcome.',icon:TrendingUp},{title:'Creative Campaigns',text:'Original concepts built to earn attention in crowded feeds.',icon:Sparkles},{title:'Multi-Platform Promotion',text:'A connected presence across the channels that matter.',icon:Globe2},{title:'Data-Driven Decisions',text:'Performance signals shape the next smart move.',icon:BarChart3},{title:'Brand-First Thinking',text:'Every campaign strengthens a coherent brand story.',icon:Blend},{title:'Continuous Optimization',text:'We keep learning, testing, and improving.',icon:Compass}];
+{title:'Digital Marketing',text:'Focused digital strategies designed around your business goals.',icon:Megaphone},
+{title:'Social Media Marketing',text:'Build visibility and engagement where your audience spends time.',icon:Share2},
+{title:'SEO',text:'Improve search visibility and attract customers with real intent.',icon:Search},
+{title:'Paid Advertising',text:'Data-informed campaigns across Google, Meta, and relevant channels.',icon:BarChart3},
+{title:'Branding',text:'Create a consistent identity people recognize and remember.',icon:Palette},
+{title:'Lead Generation',text:'Campaigns that turn relevant attention into qualified enquiries.',icon:Target}];
+export const reasons=[{title:'Growth-Focused Strategy',text:'Every decision starts with the business outcome.',icon:TrendingUp},{title:'Creative Thinking',text:'Sharp ideas built to stand out without chasing noise.',icon:Lightbulb},{title:'Data-Informed Decisions',text:'Real performance signals guide smarter next steps.',icon:BarChart3},{title:'Multi-Channel Promotion',text:'A connected presence across the channels that matter.',icon:Share2}];
 export const projects=[
-{name:'Social Momentum',service:'Social Media Growth Campaign',goal:'A concept system designed to turn consistent publishing into stronger reach and audience connection.',colors:['#6952ff','#2dd4bf'],mark:'SM'},
-{name:'Market Entry',service:'Brand Launch Strategy',goal:'A coordinated launch concept that builds awareness, clarity, and early demand around a new brand.',colors:['#246bfe','#78d7ff'],mark:'ME'},
-{name:'Precision Reach',service:'Performance Advertising',goal:'A campaign framework built to connect audience signals with clearer paid-media decisions.',colors:['#ff6b59','#ffb84d'],mark:'PR'},
-{name:'New Digital Era',service:'Digital Brand Transformation',goal:'A modern identity and digital presence concept designed for consistency across every touchpoint.',colors:['#9362ff','#3978ff'],mark:'ND'},
-{name:'Demand Engine',service:'Lead Generation Campaign',goal:'A focused journey that turns interest into qualified enquiries through relevant content and offers.',colors:['#0ca67a','#4ce2d0'],mark:'DE'},
-{name:'Always Interesting',service:'Creative Content Campaign',goal:'A flexible content world designed to keep a brand recognizable, useful, and culturally relevant.',colors:['#e84d8a','#9b62ff'],mark:'AI'}];
-export const industries=['Startups','Local Businesses','E-commerce','Education','Real Estate','Restaurants','Fashion','Professional Services'];
+{name:'Social Momentum',category:'Social Media Growth',description:'A concept campaign system built for consistent reach and audience connection.',tone:'var(--color-primary)',mark:'SM',services:['Social strategy','Creative direction','Content planning']},
+{name:'Market Entry',category:'Brand Launch Strategy',description:'A coordinated launch direction designed to create clarity, awareness, and demand.',tone:'color-mix(in srgb,var(--color-primary) 82%,var(--color-secondary))',mark:'ME',services:['Brand strategy','Launch planning','Digital promotion']},
+{name:'Precision Reach',category:'Paid Advertising',description:'A focused advertising concept connecting stronger messages with the right audience.',tone:'var(--color-accent-strong)',mark:'PR',services:['Media planning','Ad creative','Campaign optimization']},
+{name:'Demand Engine',category:'Lead Generation',description:'A clear customer journey designed to turn interest into qualified enquiries.',tone:'var(--color-primary-deep)',mark:'DE',services:['Lead strategy','Landing journey','Performance marketing']}];
 export const contactServices=['Digital Marketing','Social Media Marketing','SEO','Paid Advertising','Branding','Content Marketing','Lead Generation','Website Promotion','Other'];
