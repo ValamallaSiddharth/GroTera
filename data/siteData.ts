@@ -1,16 +1,16 @@
 import{BarChart3,Lightbulb,Megaphone,Palette,Search,Share2,Target,TrendingUp}from'lucide-react';
 export const strengths=[{name:'Strategy',text:'Clear direction shaped around your business.',icon:Target},{name:'Creativity',text:'Distinct ideas that make your brand memorable.',icon:Lightbulb},{name:'Visibility',text:'Relevant promotion across the right channels.',icon:Search},{name:'Growth',text:'Marketing connected to meaningful progress.',icon:TrendingUp}];
 export const services=[
-{title:'Digital Marketing',text:'Focused digital strategies designed around your business goals.',icon:Megaphone},
-{title:'Social Media Marketing',text:'Build visibility and engagement where your audience spends time.',icon:Share2},
-{title:'SEO',text:'Improve search visibility and attract customers with real intent.',icon:Search},
-{title:'Paid Advertising',text:'Data-informed campaigns across Google, Meta, and relevant channels.',icon:BarChart3},
-{title:'Branding',text:'Create a consistent identity people recognize and remember.',icon:Palette},
-{title:'Lead Generation',text:'Campaigns that turn relevant attention into qualified enquiries.',icon:Target}];
+{title:'Organic Marketing',iconColor:'#15803D',iconBackground:'#DCFCE7',text:'Build lasting visibility and trust through valuable content and community engagement.',icon:TrendingUp},
+{title:'Social Media Marketing',iconColor:'#BE185D',iconBackground:'#FCE7F3',text:'Build visibility and engagement where your audience spends time.',icon:Share2},
+{title:'Digital Marketing',iconColor:'#C2410C',iconBackground:'#FFEDD5',text:'Focused digital strategies designed around your business goals.',icon:Megaphone},
+{title:'Paid Advertising',iconColor:'#1D4ED8',iconBackground:'#DBEAFE',text:'Data-informed campaigns across Google, Meta, and relevant channels.',icon:BarChart3},
+{title:'Branding',iconColor:'#7C3AED',iconBackground:'#EDE9FE',text:'Create a consistent identity people recognize and remember.',icon:Palette},
+{title:'Lead Generation',iconColor:'#0F766E',iconBackground:'#CCFBF1',text:'Campaigns that turn relevant attention into qualified enquiries.',icon:Target}];
 export const reasons=[{title:'Growth-Focused Strategy',text:'Every decision starts with the business outcome.',icon:TrendingUp},{title:'Creative Thinking',text:'Sharp ideas built to stand out without chasing noise.',icon:Lightbulb},{title:'Data-Informed Decisions',text:'Real performance signals guide smarter next steps.',icon:BarChart3},{title:'Multi-Channel Promotion',text:'A connected presence across the channels that matter.',icon:Share2}];
 export const projects=[
-{name:'Social Momentum',category:'Social Media Growth',description:'A concept campaign system built for consistent reach and audience connection.',tone:'var(--color-primary)',mark:'SM',services:['Social strategy','Creative direction','Content planning']},
-{name:'Market Entry',category:'Brand Launch Strategy',description:'A coordinated launch direction designed to create clarity, awareness, and demand.',tone:'color-mix(in srgb,var(--color-primary) 82%,var(--color-secondary))',mark:'ME',services:['Brand strategy','Launch planning','Digital promotion']},
-{name:'Precision Reach',category:'Paid Advertising',description:'A focused advertising concept connecting stronger messages with the right audience.',tone:'var(--color-accent-strong)',mark:'PR',services:['Media planning','Ad creative','Campaign optimization']},
-{name:'Demand Engine',category:'Lead Generation',description:'A clear customer journey designed to turn interest into qualified enquiries.',tone:'var(--color-primary-deep)',mark:'DE',services:['Lead strategy','Landing journey','Performance marketing']}];
-export const contactServices=['Digital Marketing','Social Media Marketing','SEO','Paid Advertising','Branding','Content Marketing','Lead Generation','Website Promotion','Other'];
+{name:'Social Momentum',industry:'E-commerce',category:'Organic Growth',description:'A social-first content system that turned product storytelling into sustained community growth.',visual:'social' as const,metrics:[{value:'+185%',label:'Organic engagement'},{value:'45k',label:'New followers'},{value:'60 days',label:'Growth period'}],services:['Social strategy','Creative direction','Content planning']},
+{name:'Market Entry',industry:'B2B SaaS',category:'Brand Launch',description:'A coordinated launch and visibility program built to capture demand before release.',visual:'visibility' as const,metrics:[{value:'12.4k',label:'Waitlist signups'},{value:'Featured',label:'Top industry media'}],services:['Brand strategy','Launch planning','Search visibility']},
+{name:'Precision Reach',industry:'E-commerce',category:'Paid Media',description:'A performance campaign system aligning creative testing, audience intent, and spend efficiency.',visual:'ads' as const,metrics:[{value:'3.6x',label:'ROAS'},{value:'−38%',label:'Customer acquisition cost'}],services:['Media planning','Ad creative','Campaign optimization']},
+{name:'Demand Engine',industry:'Local Services',category:'Funnel Optimization',description:'A conversion-focused acquisition journey that moved high-intent prospects into the sales pipeline.',visual:'funnel' as const,metrics:[{value:'320+',label:'Qualified inbound leads'},{value:'+48%',label:'Pipeline conversion rate'}],services:['Lead strategy','Landing journey','Performance marketing']}];
+export const contactServices=['Organic Marketing','Social Media Marketing','Digital Marketing','Paid Advertising','Branding','Content Marketing','Lead Generation','Website Promotion','Other'];
